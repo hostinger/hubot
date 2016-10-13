@@ -1,0 +1,6 @@
+[
+    {
+        "time": "59 * * * * 1-5 ",
+        "event": "show:2FAInfractors"
+    }
+]
