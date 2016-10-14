@@ -17,7 +17,8 @@
     "hubot-hostinger": "git+https://github.com/hostinger/hubot-hostinger.git#b8ffe84",
     "hubot-chef": "2.7.0",
     "hubot-slack": "^3.4.2",
-    "hubot-cron-json": "^0.1.1"
+    "hubot-cron-json": "^0.1.1",
+    "githubot": "^1.0.1"  
   },
   "engines": {
     "node": "0.10.x"
