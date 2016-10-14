@@ -5,20 +5,22 @@
   "author": "Hubot <hubot@hostinger.com>",
   "description": "Hostinger Bot",
   "dependencies": {
-    "hubot": "^2.13.2",
-    "hubot-help": "^0.1.1",
+    "hubot": "^2.18.0",
+    "hubot-help": "^0.1.2",
     "hubot-karma-classic": "^1.0.2",
     "hubot-links": "0.0.1",
     "hubot-nagios": "0.0.2",
     "hubot-pubsub": "^1.0.2",
     "hubot-redis-brain": "0.0.3",
-    "hubot-scripts": "^2.16.1",
+    "hubot-scripts": "^2.16.2",
     "hubot-simple-logger": "git+https://github.com/anarcher/hubot-simple-logger.git",
     "hubot-hostinger": "git+https://github.com/hostinger/hubot-hostinger.git#b8ffe84",
+    "hubot-awex": "git+https://github.com/hostinger/hubot-awex.git#545caeac6315f8550046c4d28fb4ef54936bfbf7",
     "hubot-chef": "2.7.0",
     "hubot-slack": "^3.4.2",
     "hubot-cron-json": "^0.1.1",
-    "githubot": "^1.0.1"  
+    "hubot-xmpp": "0.2.4",
+    "githubot": "^1.0.1"
   },
   "engines": {
     "node": "0.10.x"
