@@ -17,7 +17,6 @@
     "hubot-hostinger": "git+https://github.com/hostinger/hubot-hostinger.git#b8ffe84",
     "hubot-awex": "git+https://github.com/hostinger/hubot-awex.git#545caeac6315f8550046c4d28fb4ef54936bfbf7",
     "hubot-chef": "2.7.0",
-    "hubot-slack": "^3.4.2",
     "hubot-cron-json": "^0.1.1",
     "hubot-xmpp": "0.2.4",
     "githubot": "^1.0.1"
