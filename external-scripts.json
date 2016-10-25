@@ -4,6 +4,7 @@
   "hubot-karma-classic",
   "hubot-pubsub",
   "hubot-nagios",
+  "hubot-jenkins",
   "hubot-simple-logger",
   "hubot-hostinger",
   "hubot-awex",
