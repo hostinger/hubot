@@ -15,7 +15,7 @@
     "hubot-scripts": "^2.16.2",
     "hubot-simple-logger": "git+https://github.com/anarcher/hubot-simple-logger.git",
     "hubot-hostinger": "git+https://github.com/hostinger/hubot-hostinger.git#b8ffe84",
-    "hubot-awex": "git+https://github.com/hostinger/hubot-awex.git#545caeac6315f8550046c4d28fb4ef54936bfbf7",
+    "hubot-awex": "git+https://github.com/hostinger/hubot-awex.git#a37375824a670e058e33e893fdb105bff7da77b2",
     "hubot-chef": "2.7.0",
     "hubot-xmpp": "0.2.4"
   },
