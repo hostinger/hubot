@@ -14,7 +14,7 @@
     "hubot-pubsub": "^1.0.2",
     "hubot-redis-brain": "0.0.3",
     "hubot-simple-logger": "git+https://github.com/anarcher/hubot-simple-logger.git",
-    "hubot-hostinger": "git+https://github.com/hostinger/hubot-hostinger.git#b8ffe84",
+    "hubot-hostinger": "git+https://github.com/hostinger/hubot-hostinger.git#677d7063c28039a832ba8508ecd5913b5d2e8d2f",
     "hubot-awex": "git+https://github.com/hostinger/hubot-awex.git#47c1517342cba1a07b048e5cc961ee6c56e29c0a",
     "hubot-chef": "2.7.0",
     "hubot-xmpp": "0.2.4"
