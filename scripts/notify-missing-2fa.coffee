@@ -11,17 +11,22 @@ DEFAULT_EMPTY_ANSWER = 'Everybody is using 2FA on Github...:beer:!'
 DEFAULT_MESSAGE = '<!channel>! , here are the guys who have not activated Github Two-factor authentication. Please, activate it ASAP'
 module.exports = (robot) ->
   robot.on 'show:2FAInfractors', () ->
-    github = require("githubot")(robot)
+    show2FAInfractors(robot)
 
-    secFAService = process.env.HUBOT_SEC_FA_SERVICE || DEFAULT_SEC_FA_SERVICE
-    room = process.env.HUBOT_ROOM || DEFAULT_ROOM
-    emptyAnswer = process.env.HUBOT_EMPTY_ANSWER || DEFAULT_EMPTY_ANSWER
-    message = process.env.HUBOT_MESSAGE || DEFAULT_MESSAGE
+  robot.respond /show 2FA disabled/i, (res) ->
+    show2FAInfractors(robot)
 
-    namesList = []
-    github.get secFAService, {}, (users) ->
-      if users instanceof Array && users.length
-        namesList.push "https://github.com/"+user.login for user in users
-        robot.messageRoom(room, message+":\n"+namesList.join(', '))
-      else
-        robot.messageRoom(room, emptyAnswer)
+show2FAInfractors = (robot) ->
+  github = require("githubot")(robot)
+  secFAService = process.env.HUBOT_SEC_FA_SERVICE || DEFAULT_SEC_FA_SERVICE
+  room = process.env.HUBOT_ROOM || DEFAULT_ROOM
+  emptyAnswer = process.env.HUBOT_EMPTY_ANSWER || DEFAULT_EMPTY_ANSWER
+  message = process.env.HUBOT_MESSAGE || DEFAULT_MESSAGE
+
+  namesList = []
+  github.get secFAService, {}, (users) ->
+    if users instanceof Array && users.length      
+      namesList.push "https://github.com/"+user.login for user in users
+      robot.messageRoom(room, message+":\n"+namesList.join(', '))
+    else      
+      robot.messageRoom(room, emptyAnswer) 
