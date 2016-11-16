@@ -15,8 +15,6 @@ DEFAULT_MESSAGE = '<!channel>! , here are the guys who have not activated Github
 DEFAULT_ACTIVATE_IT_MESSAGE = 'Please activate it in https://github.com/settings/security'
 DEFAULT_COLOR = "#EC737E"
 module.exports = (robot) ->
-  robot.on 'show:2FAInfractors', () ->
-    show2FAInfractors(robot)
 
   robot.respond /show github 2fa disabled users/i, (res) ->
     show2FAInfractors(robot)
