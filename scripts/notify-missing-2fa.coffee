@@ -18,7 +18,7 @@ module.exports = (robot) ->
   robot.on 'show:2FAInfractors', () ->
     show2FAInfractors(robot)
 
-  robot.respond /show 2FA disabled/i, (res) ->
+  robot.respond /show github 2fa disabled users/i, (res) ->
     show2FAInfractors(robot)
 
 show2FAInfractors = (robot) ->
