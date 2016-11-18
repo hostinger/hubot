@@ -36,7 +36,6 @@ show2FAInfractors = (robot,res) ->
   namesList = []
   github.get secFAService, {}, (users) ->
     if users instanceof Array && users.length      
-      console.log users
       namesList.push user.login+" - "+user.html_url+"\n" for user in users
       namesList = namesList.join('\n')
       res.send "#{message} #{namesList}\n #{activateItMessage}"
