@@ -1,6 +1,5 @@
 [
   "hubot-cachethq",
-  "hubot-cron-json",
   "hubot-help",
   "hubot-redis-brain",
   "hubot-karma-classic",
