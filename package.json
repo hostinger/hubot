@@ -11,7 +11,7 @@
     "hubot-cachethq": "^1.0.1",
     "hubot-chef": "2.7.0",    
     "hubot-help": "^0.1.2",
-    "hubot-hostinger": "git+https://github.com/hostinger/hubot-hostinger.git#1e38ce60ba9b2f909dc89b7c3b7df3925d9f5570",
+    "hubot-hostinger": "git+https://github.com/hostinger/hubot-hostinger.git#600bff58b3ce4bc27e7fe69d6fbf3c4ae38cec1f",
     "hubot-jenkins": "^1.0.2",
     "hubot-karma-classic": "^1.0.2",
     "hubot-links": "0.0.1",
