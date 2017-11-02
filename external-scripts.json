@@ -10,5 +10,6 @@
   "hubot-hostinger",
   "hubot-awex",
   "hubot-links",
-  "hubot-chef"
+  "hubot-chef",
+  "hubot-grafana"
 ]
