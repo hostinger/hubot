@@ -10,7 +10,7 @@
     "hubot-awex": "git+https://github.com/hostinger/hubot-awex.git#47c1517342cba1a07b048e5cc961ee6c56e29c0a",
     "hubot-cachethq": "^1.0.1",
     "hubot-help": "^0.1.2",
-    "hubot-hostinger": "git+https://github.com/hostinger/hubot-hostinger.git#de6c9af2af737e5d57007b18e42d90fe3ecb1bd0",
+    "hubot-hostinger": "git+https://github.com/hostinger/hubot-hostinger.git#dcab996c00de3e71542a7f567c9368828b836d5c",
     "hubot-jenkins": "^1.0.2",
     "hubot-karma-classic": "^1.0.2",
     "hubot-links": "0.0.1",
