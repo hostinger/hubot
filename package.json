@@ -18,7 +18,6 @@
     "hubot-redis-brain": "0.0.3",
     "hubot-simple-logger": "git+https://github.com/anarcher/hubot-simple-logger.git",
     "hubot-xmpp": "0.2.4",
-    "hubot-grafana": "1.6.0",
     "hubot-slack": "4.4.0"
   },
   "engines": {
