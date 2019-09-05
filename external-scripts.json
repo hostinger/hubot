@@ -8,6 +8,5 @@
   "hubot-simple-logger",
   "hubot-hostinger",
   "hubot-awex",
-  "hubot-links",
-  "hubot-grafana"
+  "hubot-links"
 ]
