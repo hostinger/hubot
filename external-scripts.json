@@ -1,6 +1,7 @@
 [
   "hubot-cachethq",
   "hubot-help",
+  "hubot-redis-brain",
   "hubot-karma-classic",
   "hubot-pubsub",
   "hubot-jenkins",
