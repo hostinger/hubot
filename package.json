@@ -9,16 +9,16 @@
     "hubot": "^3.3.2",
     "hubot-awex": "git+https://github.com/hostinger/hubot-awex.git",
     "hubot-cachethq": "^1.0.1",
-    "hubot-help": "^0.1.2",
+    "hubot-help": "1.0.1",
     "hubot-hostinger": "git+https://github.com/hostinger/hubot-hostinger.git",
     "hubot-jenkins": "^1.0.2",
-    "hubot-karma-classic": "^1.0.2",
+    "hubot-karma-classic": "^1.0.3",
     "hubot-links": "0.0.1",
-    "hubot-pubsub": "^1.0.2",
+    "hubot-pubsub": "^1.0.6",
     "hubot-redis-brain": "0.0.3",
     "hubot-simple-logger": "git+https://github.com/anarcher/hubot-simple-logger.git",
-    "hubot-xmpp": "0.2.4",
-    "hubot-slack": "4.4.0"
+    "hubot-xmpp": "0.2.6",
+    "hubot-slack": "4.6.0"
   },
   "engines": {
     "node": "0.10.x"
