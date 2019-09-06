@@ -15,7 +15,7 @@
     "hubot-karma-classic": "^1.0.3",
     "hubot-links": "0.0.1",
     "hubot-pubsub": "^1.0.6",
-    "hubot-redis-brain": "0.0.3",
+    "hubot-redis-brain": "1.0.0",
     "hubot-simple-logger": "git+https://github.com/anarcher/hubot-simple-logger.git",
     "hubot-xmpp": "0.2.6",
     "hubot-slack": "4.6.0"
