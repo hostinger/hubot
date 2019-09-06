@@ -6,7 +6,7 @@
   "description": "Hostinger Bot",
   "dependencies": {
     "githubot": "^1.0.1",
-    "hubot": "^2.18.0",
+    "hubot": "^3.3.2",
     "hubot-awex": "git+https://github.com/hostinger/hubot-awex.git",
     "hubot-cachethq": "^1.0.1",
     "hubot-help": "^0.1.2",
