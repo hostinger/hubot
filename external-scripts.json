@@ -1,5 +1,4 @@
 [
-  "hubot-cachethq",
   "hubot-help",
   "hubot-redis-brain",
   "hubot-karma-classic",
@@ -7,6 +6,5 @@
   "hubot-jenkins",
   "hubot-simple-logger",
   "hubot-hostinger",
-  "hubot-awex",
-  "hubot-links"
+  "hubot-awex"
 ]
