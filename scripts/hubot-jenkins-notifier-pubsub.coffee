@@ -16,7 +16,7 @@ module.exports = (robot) ->
     res.end('')
     data = req.body
     message = "#{data.name} ##{data.build.number} #{data.build.status} (#{data.build.full_url})"
-    event = "build.#{data.build.status.toLowerCase()}"
+    event = "build.#{data.name}.#{data.build.status.toLowerCase()}"
 
     if data.build.status == 'SUCCESS'
       message = ":sunny: " + message
